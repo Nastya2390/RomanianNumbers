@@ -54,6 +54,8 @@ public class RomainanNumber {
             case 9:
                 setRes(resStr() + x + z);
                 break;
+            default:
+                throw new IllegalArgumentException("Number from 1 to 9");
         }
     }
 
